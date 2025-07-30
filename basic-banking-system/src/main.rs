@@ -1,5 +1,5 @@
-use crate::bank::{Account, BankAccount};
 mod bank;
+use crate::bank::{Account, BankAccount};
 
 fn main() {
     let mut account_di_cola: BankAccount = BankAccount {
